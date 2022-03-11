@@ -30,11 +30,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
       return
     }
 
-    WindowAPI.getState().done { state in
-      print(state.screens)
-      print(state.knownWindows)
-    }
-
   }
   func applicationWillTerminate(_ aNotification: Notification) {
     taskbarPanel.close()

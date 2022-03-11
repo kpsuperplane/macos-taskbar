@@ -13,6 +13,8 @@
 		5017FA9527D9C75300B16316 /* TaskbarPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5017FA9427D9C75300B16316 /* TaskbarPanel.swift */; };
 		5017FA9727D9C92000B16316 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5017FA9627D9C92000B16316 /* AppDelegate.swift */; };
 		5017FA9B27D9DC3300B16316 /* WindowAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5017FA9A27D9DC3300B16316 /* WindowAPI.swift */; };
+		5053C5DF27DB357200A16E49 /* TaskbarWindowList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5053C5DE27DB357200A16E49 /* TaskbarWindowList.swift */; };
+		5053C5E127DB36EC00A16E49 /* TaskbarWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5053C5E027DB36EC00A16E49 /* TaskbarWindow.swift */; };
 		50657B8E27D9F00000397B9A /* Swindler in Frameworks */ = {isa = PBXBuildFile; productRef = 50657B8D27D9F00000397B9A /* Swindler */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +27,8 @@
 		5017FA9427D9C75300B16316 /* TaskbarPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskbarPanel.swift; sourceTree = "<group>"; };
 		5017FA9627D9C92000B16316 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5017FA9A27D9DC3300B16316 /* WindowAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowAPI.swift; sourceTree = "<group>"; };
+		5053C5DE27DB357200A16E49 /* TaskbarWindowList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskbarWindowList.swift; sourceTree = "<group>"; };
+		5053C5E027DB36EC00A16E49 /* TaskbarWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskbarWindow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 			children = (
 				5017FA8627D9C74100B16316 /* TaskbarView.swift */,
 				5017FA9427D9C75300B16316 /* TaskbarPanel.swift */,
+				5053C5DE27DB357200A16E49 /* TaskbarWindowList.swift */,
+				5053C5E027DB36EC00A16E49 /* TaskbarWindow.swift */,
 			);
 			path = taskbar;
 			sourceTree = "<group>";
@@ -216,9 +222,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5053C5DF27DB357200A16E49 /* TaskbarWindowList.swift in Sources */,
 				5017FA9B27D9DC3300B16316 /* WindowAPI.swift in Sources */,
 				5017FA9727D9C92000B16316 /* AppDelegate.swift in Sources */,
 				5017FA8727D9C74100B16316 /* TaskbarView.swift in Sources */,
+				5053C5E127DB36EC00A16E49 /* TaskbarWindow.swift in Sources */,
 				5017FA9527D9C75300B16316 /* TaskbarPanel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

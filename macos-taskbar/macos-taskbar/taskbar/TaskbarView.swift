@@ -22,19 +22,8 @@ struct VisualEffectView: NSViewRepresentable {
 struct TaskbarView: View {
   var body: some View {
     HStack {
-      Image("logo")
-        .resizable()
-        .scaledToFit()
-        .padding(10)
-
+      TaskbarWindowList()
       Spacer()
-      VStack {
-        Text("22:52")
-          .foregroundColor(.white)
-        Text("03/09/2022")
-          .foregroundColor(.white)
-      }
-      .padding(10)
     }
     .frame(maxWidth: .infinity, maxHeight: .infinity)
     .background(
